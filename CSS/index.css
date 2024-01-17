@@ -1,0 +1,244 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  scroll-behavior: smooth;
+}
+/* Header section */
+#nav-header {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgb(10 14 10);
+  padding: 20px 0;
+}
+nav {
+  display: flex;
+  justify-content: center;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 20px;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+nav a:hover {
+  color: orangered;
+}
+
+/* Main section */
+/* Home */
+.banner {
+  height: 100vh;
+  background-image: url(/images/portfolio-bg.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+#home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#my-name:hover {
+  color: rgb(110, 110, 248);
+}
+.display-text {
+  color: white;
+}
+#my-name {
+  font-size: 5rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+#icons {
+  font-size: 2.5rem;
+}
+#my-profession {
+  font-size: 1.2rem;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgb(49, 49, 69);
+  margin-bottom: 10px;
+}
+.icon-display a {
+  padding: 0 10px;
+}
+#icons i:hover {
+  color: rgb(110, 110, 248);
+}
+
+
+/* About */
+.display {
+  background-color: rgb(15, 20, 15);
+}
+#my-photo {
+  width: 60%;
+  border-radius: 50%;
+}
+.about-heading {
+  color: rgb(110, 110, 248);
+  margin-bottom: 2%;
+}
+#about {
+  display: flex;
+  justify-content: center;
+  padding: 6% 10%;
+}
+.about-content {
+  line-height: 2rem;
+  color: #fff;
+  font-size: 1.2rem;
+  text-align: justify;
+}
+#about-me p:last-child {
+  margin-bottom: 6%;
+}
+@media screen and (max-width: 600px) {
+  .about-content,
+  #my-profession {
+    font-size: 0.9rem;
+  }
+  #my-name {
+    font-size: 3rem;
+  }
+  nav a {
+    font-size: 1rem;
+  }
+}
+button{
+  padding: 1% 4%;
+  font-size: 1.2rem;
+  cursor: pointer;
+  background-color: rgb(81, 79, 79);
+  border: none;
+  border-radius: 2%;
+}
+button:hover{
+  background-color: rgb(110, 110, 248);
+}
+
+
+/* Contact */
+#contact{
+  padding: 8%;
+}
+.contact-heading{
+  color: rgb(110, 110, 248);
+  margin-bottom: 3%;
+  font-weight: 900;
+}
+.contact-content{
+  line-height: 2.2rem;
+  color: #fff;
+  font-size: 1.2rem;
+}
+.contact-content:hover, .contact-content a:hover{
+  color: rgb(110, 110, 248);
+}
+.contact-content a{
+  text-decoration: none;
+  color: white;
+}
+
+
+/* Skills */
+.skill-heading{
+  border-bottom: 2px solid orangered;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.project-image{
+  width: 100%;
+}
+#projects, #key-skill{
+  display: flex;
+  justify-content: center;
+}
+.project-heading{
+  width: 30%;
+}
+.project-content{
+  width: 50%;
+}
+.project-content1, .project-content2, .project-content3{
+  border: 1px solid rgb(176, 176, 176);
+  padding: 3%;
+  margin-bottom: 4%;
+}
+#projects h2{
+  text-align: center;
+  color: rgb(110, 110, 248);
+  margin-bottom: 4%;
+  font-weight: 900;
+}
+#projects p{
+  text-align: justify;
+}
+.container{
+  background-color: gainsboro;
+  height: 35px;
+  width: 100%;
+  border-radius: 3px;
+}
+.bar{
+  background-color: rgb(15, 20, 15);
+  height: 100%;
+  border-radius: 3px 0 0 3px;
+}
+#bar1{
+  width: 75%;
+}
+#bar2{
+  width: 60%;
+}
+#bar3{
+  width: 80%;
+}
+#bar4{
+  width: 85%;
+}
+#bar5{
+  width: 60%;
+}
+#bar6{
+  width: 75%;
+}
+#bar7{
+  width: 85%;
+}
+.skill-set{
+  font-weight: 700;
+  text-transform: uppercase;
+}
+li{
+  margin-bottom: 5%;
+}
+#skills{
+  padding: 5% 0;
+}
+#key-skill{
+  margin-bottom: 5%;
+}
+.project-content a{
+  cursor: pointer;
+}
+
+/* footer */
+#footer-display {
+  background-color: rgb(3, 3, 3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2% 0;
+}
+.footer-icon {
+  margin-bottom: 1%;
+}
+.footer-icon a {
+  padding: 0 8px;
+}
