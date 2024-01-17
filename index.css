@@ -33,7 +33,7 @@ nav a:hover {
 /* Home */
 .banner {
   height: 100vh;
-  background-image: url(/images/portfolio-bg.png);
+  background-image: url(./images/portfolio-bg.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
