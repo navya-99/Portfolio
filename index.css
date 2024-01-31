@@ -70,7 +70,6 @@ nav a:hover {
   color: rgb(110, 110, 248);
 }
 
-
 /* About */
 .display {
   background-color: rgb(15, 20, 15);
@@ -109,7 +108,7 @@ nav a:hover {
     font-size: 1rem;
   }
 }
-button{
+button {
   padding: 1% 4%;
   font-size: 1.2rem;
   cursor: pointer;
@@ -117,114 +116,116 @@ button{
   border: none;
   border-radius: 2%;
 }
-button:hover{
+button:hover {
   background-color: rgb(110, 110, 248);
 }
 
-
 /* Contact */
-#contact{
+#contact {
   padding: 8%;
 }
-.contact-heading{
+.contact-heading {
   color: rgb(110, 110, 248);
   margin-bottom: 3%;
   font-weight: 900;
 }
-.contact-content{
+.contact-content {
   line-height: 2.2rem;
   color: #fff;
   font-size: 1.2rem;
 }
-.contact-content:hover, .contact-content a:hover{
+.contact-content:hover,
+.contact-content a:hover {
   color: rgb(110, 110, 248);
 }
-.contact-content a{
+.contact-content a {
   text-decoration: none;
   color: white;
 }
 
-
 /* Skills */
-.skill-heading{
+.skill-heading {
   border-bottom: 2px solid orangered;
   font-size: 1.5rem;
   font-weight: 700;
   text-transform: uppercase;
 }
-.project-image{
+.project-image {
   width: 100%;
 }
-#projects, #key-skill{
+#projects,
+#key-skill {
   display: flex;
   justify-content: center;
 }
-.project-heading{
+.project-heading {
   width: 30%;
 }
-.project-content{
+.project-content {
   width: 50%;
 }
-.project-content1, .project-content2, .project-content3{
+.project-content1,
+.project-content2,
+.project-content3 {
   border: 1px solid rgb(176, 176, 176);
   padding: 3%;
   margin-bottom: 4%;
 }
-#projects h2{
+#projects h2 {
   text-align: center;
   color: rgb(110, 110, 248);
   margin-bottom: 4%;
   font-weight: 900;
 }
-#projects p{
+#projects p {
   text-align: justify;
 }
-.container{
+.container {
   background-color: gainsboro;
   height: 35px;
   width: 100%;
   border-radius: 3px;
 }
-.bar{
+.bar {
   background-color: rgb(15, 20, 15);
   height: 100%;
   border-radius: 3px 0 0 3px;
 }
-#bar1{
-  width: 75%;
+#bar1 {
+  width: 65%;
 }
-#bar2{
-  width: 60%;
+#bar2 {
+  width: 50%;
 }
-#bar3{
+#bar3 {
   width: 80%;
 }
-#bar4{
+#bar4 {
   width: 85%;
 }
-#bar5{
+#bar5 {
   width: 60%;
 }
-#bar6{
+#bar6 {
   width: 75%;
 }
-#bar7{
+#bar7 {
   width: 85%;
 }
-.skill-set{
+.skill-set {
   font-weight: 700;
   text-transform: uppercase;
 }
-li{
+li {
   margin-bottom: 5%;
 }
-#skills{
+#skills {
   padding: 5% 0;
 }
-#key-skill{
+#key-skill {
   margin-bottom: 5%;
 }
-.project-content a{
+.project-content a {
   cursor: pointer;
 }
 

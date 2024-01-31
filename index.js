@@ -1,5 +1,5 @@
 document.getElementById('viewResumeBtn').addEventListener('click', function() {
-  var resumePath = 'https://drive.google.com/file/d/1I9anT6lnTTQBz34VEz6Dd-cU1LfiPGtq/view';
+  var resumePath = 'https://drive.google.com/file/d/1sNcJbPIXfDcPRVorZJSN2aSrruIArzqa/view?usp=drive_link';
 
   var newTab = window.open(resumePath, '_blank');
 
