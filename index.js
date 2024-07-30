@@ -1,5 +1,5 @@
-document.getElementById('viewResumeBtn').addEventListener('click', function() {
-  var resumePath = 'https://drive.google.com/file/d/1sNcJbPIXfDcPRVorZJSN2aSrruIArzqa/view?usp=drive_link';
+document.getElementById('viewResumeBtn').addEventListener('click', function () {
+  var resumePath = 'https://drive.google.com/file/d/1w-RxGLGx1xWRn0Z5mGUF6Rboy_K74AUf/view?usp=sharing';
 
   var newTab = window.open(resumePath, '_blank');
 
